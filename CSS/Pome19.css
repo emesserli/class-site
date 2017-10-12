@@ -1,0 +1,26 @@
+body {
+	height: 5500px;
+}
+p {
+	font-family: times
+	
+}
+p {
+ text-align: right;
+ font-style: italic;
+}
+
+div1{
+  text-align: left
+    color: crimson
+}
+
+div2{
+  text-align: center
+    color:blanchedalmond
+}
+
+div3{
+  text-align: right
+    color: darkcyan    
+}
