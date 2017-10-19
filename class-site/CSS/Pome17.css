@@ -1,0 +1,18 @@
+
+body {
+    height: 600px;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center
+        
+}
+
+.kiss:hover {
+	color: pink;
+	cursor: url('../img/Kiss.gif'), auto;
+}
+
+h4 {
+  color:red
+}
+
