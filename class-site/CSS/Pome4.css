@@ -1,0 +1,19 @@
+
+body {
+    height: 5500px;
+}
+
+p {
+    font-family: helvetica;
+    font-size: 250px;
+        
+}
+
+.centered {
+ text-align: center;
+ font-style: italic;
+}
+
+.regular {
+    font-weight: 200;
+}

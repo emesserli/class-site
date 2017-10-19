@@ -1,0 +1,26 @@
+
+body {
+    height: 6000px;
+    font-family: times;
+    font-size: 12px;}
+}
+
+.float1 {
+    float: left;
+    width: 33%;
+    height: 100px;
+    border-style: solid;
+}
+    
+ .float2 {
+    float: left;
+    width: 33%;
+    height: 100px;
+    border-style: solid;
+}
+.float3 {
+    float: left;
+    width: 33%;
+    height: 100px;
+    border-style: solid;
+}

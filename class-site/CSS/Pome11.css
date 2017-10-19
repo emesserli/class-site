@@ -1,0 +1,32 @@
+
+body {
+    height: 2500px;
+}
+
+p {  color: black;
+    font-family: times;
+    font-size: 16px;}
+
+.float1 {
+    float: left;
+    width: 33%;
+    height: 50px;
+    border-style: dotted;
+}
+.float2 {
+    float: left;
+    width: 33%;
+    height: 50px;
+    border-style: solid;
+}
+.float3 {
+    float: right;
+    width: 33%;
+    height: 50px;
+    border-style: dotted;
+}
+
+.walk:hover {
+	color: gray;
+	cursor: url('../img/Butterfly.gif'), auto;
+}
