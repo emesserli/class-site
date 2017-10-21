@@ -11,3 +11,26 @@ h4{
  color: bisque    
 }
 
+div {
+    width: 100px;
+    height: 50px;
+    background-color: bisque;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+    
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease-in;}
+#div3 {-webkit-animation-timing-function: ease-out;}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease-in;}
+#div3 {animation-timing-function: ease-out;}
+
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1050px;}
