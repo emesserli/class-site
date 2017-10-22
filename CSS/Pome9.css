@@ -1,8 +1,6 @@
-
-body {
-    height: 2500px;
+.block {
+    width: 500px;
+    text-align: justify;
+    padding: 150px;
 }
 
-p {  
-    font-family: ayuthaya;
-    font-size: 35px;}
