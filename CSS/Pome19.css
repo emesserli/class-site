@@ -2,7 +2,7 @@ body {
 	height: 5500px;
 }
 p {
-	font-family: times
+	font-family: times;
 	
 }
 p {
@@ -10,17 +10,21 @@ p {
  font-style: italic;
 }
 
-div1{
-  text-align: left
-    color: crimson
+div{
+  text-align: left;
+  color: blanchedalmond;
 }
 
-div2{
-  text-align: center
-    color:blanchedalmond
-}
-
-div3{
-  text-align: right
-    color: darkcyan    
+#overflowTest {
+    background: white;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    width: 90%;
+    height: 1px;
+    overflow: scroll;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
 }

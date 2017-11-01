@@ -60,3 +60,11 @@ footer {
     font-size: 12px;
 }
 
+#square1{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    position: fixed;
+    top: 250px;
+    left: 1400px;
+}
