@@ -1,55 +1,96 @@
+#snow{
+    background: none;
+    font-family: Androgyne;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}  
+
 h1{
     background-color:black;
     color: white;
     text-align: center;
     position: fixed;
     left: 500px;
+    font-family: sans-serif;
 }
 
 
-#overflowTest {
+
+
+div1 {
     background: white;
     color: black;
-    font-size: 18px;
-    padding: 15px;
+    font-family: sans-serif;
+    font-size: 50px;
     width: 90%;
     height: 1px;
-    overflow: scroll;
-    border: 50px solid bisque;
-    padding: 25px;
-    margin: 25px;
+    height: 1px;
     text-align: center;
 }
 
+  
 div2{
     text-align: center;
     background-color: white;
     left: 500px;
     border: 5px solid black;
+    font-family: sans-serif;
 }
 
 
-#oval1 {
+#oval {
 	width: 400px;
 	height: 200px;
-	background: bisque;
+	background: black;
 	border-radius: 200px / 100px;
 	border-radius: 200px / 100px;
 	border-radius: 200px / 100px;
-    left: 750px;
+    left: 5000px;
     top: 50px;
+    object-position: center;
 }
 
-#star-six {
+#star-six1 {
 	width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid black;
 	position: relative;
+    top:40px;
+    left: 50px;
 }
 
-#star-six:after {
+#star-six1:after {
 	width: 0;
 	height: 0;
 	border-left: 50px solid transparent;
@@ -60,3 +101,15 @@ div2{
 	top: 30px;
 	left: -50px;
 }
+
+a {
+    color: pink;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+a:hover{
+    background-color: maroon;
+}
+
+
