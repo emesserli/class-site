@@ -56,6 +56,7 @@ div3{
 
 
 div1 {
+    position: relative;
     background: white;
     color: black;
     font-family: sans-serif;
