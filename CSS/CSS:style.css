@@ -1,0 +1,18 @@
+#overflow {
+    background: white;
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 2px;
+    width: 8%;
+    height: 1px;
+    overflow: scroll;
+    border: .5px solid black;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+    position:fixed;
+    left: 625px; 
+    top: 380px;
+}
+
