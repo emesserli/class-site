@@ -2,7 +2,7 @@
 <html>
 <head>
   		<link rel="stylesheet" type="text/css" href="CSS/CSS:style.css">
-<style>
+<!--<style>
 html { 
   background: url(CSS/CL.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -11,7 +11,78 @@ html {
   background-size: cover;
 }
     
-</style>
+</style>--> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<style>
+	body{
+  margin:0;
+  padding:0;
+  height:100%;
+
+
+}
+
+
+/* basic */
+#rand-images{
+  position:relative;
+ background-size: cover;
+  display:block;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:400px;
+  overflow:hidden;
+}
+
+	</style>
+<script>
+/*
+*	Sample tag
+*	<header id="rand-images">
+*        Random
+*      Backgrounds
+*	</header>
+*
+*
+*/
+var randomImages = (function(){
+  'use strict';
+  return{
+    init: function(){
+      this.events();// init events
+    },
+    events: function(){
+      /* random images snippet*/
+		      /* these can also be images hosted locally on your server, ie just an image file name, rather than a URL*/
+      var images = [
+        'CSS/CL.jpg',
+        'CSS/IP.jpg',
+
+      ];
+        
+      // create style tag in head
+      var s = document.createElement('style');
+      // add id
+      s.id = 'random-Img';
+      // type css
+      s.type = 'text/css';
+      // append in head
+      document.head.appendChild(s);
+      // math random
+      var r = images[Math.floor(Math.random() * images.length)];
+      // add into style
+      s.textContent = '#rand-images{background:url('+r+') no-repeat center center fixed #eee;background-size:cover;-moz-background-size:cover;}';
+    }
+  };
+})();
+// Ready for the war
+randomImages.init();
+
+
+	</script>    
 </head>
 <body>
 
