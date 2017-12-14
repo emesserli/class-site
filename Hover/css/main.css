@@ -1,0 +1,134 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+    width: 100vw;
+	height: 100vh;
+	margin: 0px auto;
+	background: white;
+	position: relative;
+}
+#rectangle1 {
+	width: 250px;
+	height: 650px;
+	background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    z-index: 1;
+}
+
+#rectangle2 {
+	width: 300px;
+	height: 350px;
+	background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    left: 20%;
+    z-index: 2;
+}
+
+
+#rectangle3 {
+	width: 200px;
+	height: 200px;
+	background-color: lightpink;
+    position: fixed;
+    bottom: 0;
+    left: 30%;
+    z-index: 3;
+}
+    
+#rectangle4 {
+	width: 400px;
+	height: 350px;
+	background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    z-index: 4;
+}
+
+
+#rectangle5 {
+	width: 200px;
+	height: 15px;
+	background-color: lightpink;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    z-index: 5;
+}
+
+#rectangle6 {
+	width: 250px;
+	height: 650px;
+	background-color: papayawhip;
+    position: fixed;
+    bottom: 10;
+    left: 60%;
+    z-index: 6;
+}
+
+#rectangle7 {
+	width: 300px;
+	height: 350px;
+	background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    left: 70%;
+    z-index: 7;
+}
+
+
+#rectangle8 {
+	width: 200px;
+	height: 200px;
+	background-color: lightpink;
+    position: fixed;
+    bottom: 0;
+    left: 80%;
+    z-index: 8;
+}
+    
+#rectangle9 {
+	width: 40px;
+	height: 850px;
+	background-color: gainsboro;
+    position: fixed;
+    bottom: 20;
+    left: 90%;
+    z-index: 9;
+}
+
+
+#rectangle10 {
+	width: 20px;
+	height: 150px;
+	background-color: cornsilk;
+    position: fixed;
+    bottom: 30;
+    left: 120%;
+    z-index: 10;
+}
+    
+
+#rectangle1:hover, #rectangle2:hover, #rectangle3:hover, #rectangle4:hover, #rectangle5:hover, #rectangle6:hover, #rectangle7:hover, #rectangle8:hover, #rectangle9:hover, #rectangle10:hover {
+    z-index: 10;
+}
+
+.heart {
+	color: #ccc;
+}
+
+.heart:hover {
+	color: black;
+	cursor: url('../img/heart.gif'), auto;
+}
+
+
