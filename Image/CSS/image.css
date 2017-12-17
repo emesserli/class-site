@@ -1,0 +1,177 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100vw;
+}
+
+#one {
+		display: block;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+I
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: block;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+	#one {
+		display: none;
+
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: block;
+	}
+
+
+	#four {
+		display: none;
+	}
+
+	#five {
+		display: none;
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+	
+
+	#one {
+		display: none;
+
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+
+	#four {
+		display: block;
+
+	}
+	#five {
+		display: none;
+	}
+
+
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	
+
+	#one {
+		display: none;
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display: none;
+
+	}
+	#five {
+		display: block;
+	}
+
+	
+	
+}
+
+
+@media screen and (max-width: 320px) {
+
+	
+	#one {
+		display: none;
+
+	}
+
+	#two {
+		display: none;
+	}
+
+	#three {
+		display: none;
+	}
+
+	#four {
+		display:none;
+
+	}
+	#five {
+		display: none;
+	}
+
+	
+}

@@ -1,0 +1,85 @@
+body
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+	font-family: helvetica, arial sans-serif;
+	font-style: bold uppercase;
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+    font-size: 15vw; line-height: 99%;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+	body{
+	background-color: gray;	
+
+
+	}
+
+	
+	
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	body{
+	background-color: red;	
+
+
+	}
+
+
+	
+}
+
+
+@media screen and (max-width: 600px) {
+
+	body{
+	background-color: pink;	
+
+
+	}
+	
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+	body{
+	background-color: crimson;	
+
+	}
+
+	
+	
+}
+
+@media screen and (max-width: 320px) {
+
+	body{
+	background-color: mistyrose;	
+
+
+	}
+
+
+	
