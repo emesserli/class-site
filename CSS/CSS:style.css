@@ -26,3 +26,27 @@ a {
     text-decoration: none;
     color: black;
 }
+
+ #text-display
+        {   
+            z-index: 1000;
+            position: fixed;
+            bottom: 50px;
+            font-weight: regular;
+            width: 90vw;
+            left: 50%;
+             -webkit-transform: translateX(0%) ;
+            -moz-transform: translateX(-50%) ;
+            transform: translateX(-50%) ;           
+            font-size: 12px;
+            line-height: 74px;
+            font-family: arial;
+            text-transform: capitalized;
+            text-align: left;
+            color:  white;
+             text-transform: lowercase;
+             width: 900px;
+            color: 50px solid white;
+            padding: 25px;
+            margin: 25px;
+        }
