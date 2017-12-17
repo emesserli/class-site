@@ -10,7 +10,10 @@
 	</script>
 </head>
 <body>
-	<canvas id="snow" class="snow"></canvas>
+
+    <audio id="myAudio" preload="auto" src="assets/Sugar.mp3"></audio> <span onclick="togglePlay()" class="music">Click here to hear.</span>
+   
+    <canvas id="snow" class="snow"></canvas>
 
     
     <audio id="myAudio" preload="auto" src="assets/Sugar.mp3"></audio> <span onclick="togglePlay()" class="music">Click here to hear.</span>
@@ -77,7 +80,7 @@
 	};
 	</script>
     
-            <script>
+    <script>
     
     var canvas = document.getElementById('snow'),
     ctx = canvas.getContext('2d'),
