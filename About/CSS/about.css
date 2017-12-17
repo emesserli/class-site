@@ -1,0 +1,19 @@
+#overflow {
+    background: white;
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 400px;
+    height: 40px;
+    overflow: scroll;
+    border: .5px solid black;
+    text-align: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 14px;
+}
