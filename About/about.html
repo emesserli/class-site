@@ -11,9 +11,15 @@ html {
   background-size: cover;
 }
     
+
+ 
 </style>
 
-<body>     
+<body>  
+
+    
+    <audio id="myAudio" preload="auto" src="Assets/Elise.mp3"></audio> <span onclick="togglePlay()" class="music">Click and relax already.</span>
+    
 <div id="overflow">
      Elise Messerli
     <p>Elise Messerli is studying B.B.A., Strategic Design and Management at Parsons The New School.  She is currently interning at CHRISTIAN LOUBOUTIN in the Global Digital Communicatio department.  This website was designed for the course Web Design Basics. </p>
@@ -39,6 +45,24 @@ html {
     <p>An excercise where the screen page changes images as the size chsnges.</p>
       Website Analysis
     <p>An initial analysis of webpages to understand how they funtion and work.  I referenced The Coveteur, Shine By Three, and The MET Musuem.</p> 
+       <script>
+	var myAudio = document.getElementById("myAudio");
+	var isPlaying = false;
+
+	function togglePlay() {
+	 if (isPlaying) {
+	   myAudio.pause()
+	 } else {
+	   myAudio.play();
+	 }
+	};
+	myAudio.onplaying = function() {
+	 isPlaying = true;
+	};
+	myAudio.onpause = function() {
+	 isPlaying = false;
+	};
+	</script>
     
 </div>
 </body>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  		<link rel="stylesheet" type="text/css" href="CSS/CSS:style.css">
+  		<link rel="stylesheet" type="text/css" href="CSS/style.css">
 <!--<style>
 html { 
   background: url(CSS/CL.jpg) no-repeat center center fixed; 
@@ -90,8 +90,8 @@ randomImages.init();
 </head>
     <body id="rand-images">
     <body>
-    
-    
+        
+    <audio id="myAudio" preload="auto" src="Assets/Clair.mp3"></audio> <span onclick="togglePlay()" class="music">Discover.</span>     
 
 <div id="overflow">
 <ul>
@@ -111,5 +111,25 @@ randomImages.init();
 
 
 </div>
+
+        <script>
+	var myAudio = document.getElementById("myAudio");
+	var isPlaying = false;
+
+	function togglePlay() {
+	 if (isPlaying) {
+	   myAudio.pause()
+	 } else {
+	   myAudio.play();
+	 }
+	};
+	myAudio.onplaying = function() {
+	 isPlaying = true;
+	};
+	myAudio.onpause = function() {
+	 isPlaying = false;
+	};
+	</script>
+    
 </body>
 
