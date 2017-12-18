@@ -33,6 +33,7 @@ ul {
     font-size: 80px; 
     text-align: center;
     font-family: sans-serif;
+    font-style: oblique;
 	margin-bottom: 40px;
 }
 
@@ -60,7 +61,7 @@ ul {
 	border-radius: 200px / 100px;
 	border-radius: 200px / 100px;
     left: 120px;
-    top: 50px;
+    top: 25px;
     object-position: center;
 }
 
@@ -72,6 +73,7 @@ ul {
 	border-radius: 200px / 100px;
 	border-radius: 200px / 100px;
 	border-radius: 200px / 100px;
+    left: 200px;
 
 }
 
@@ -97,7 +99,102 @@ ul {
 
 }
 
+#oval6 {
+	position: relative;
+	left: 40vw;
+    width: 400px;
+	height: 200px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
 
+}
+
+#oval7 {
+	position: relative;
+    width: 150px;
+	height: 75px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 1000px;
+
+}
+
+#oval8 {
+	position: relative;
+    width: 100px;
+	height: 50px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 120px;
+    object-position: center;
+}
+
+#oval9 {
+	position: relative;
+    width: 100px;
+	height: 50px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 120px;
+    object-position: center;
+}
+
+#oval10 {
+	position: relative;
+	left: 20vw;
+    width: 400px;
+	height: 200px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+
+}
+
+#oval11 {
+	position: relative;
+    width: 150px;
+	height: 75px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 1000px;
+
+}
+
+#oval12 {
+	position: relative;
+    width: 100px;
+	height: 50px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 500px;
+    object-position: center;
+}
+
+#oval13 {
+	position: absolute;
+    width: 100px;
+	height: 50px;
+	background: black;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+	border-radius: 200px / 100px;
+    left: 800px;
+    top: 3000px;
+    object-position: center;
+}
 span.hover {
     color: gray;
     font-family: sans-serif;
